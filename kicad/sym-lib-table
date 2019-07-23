@@ -1,0 +1,6 @@
+(sym_lib_table
+  (lib (name components)(type Legacy)(uri ${KIPRJMOD}/components.lib)(options "")(descr ""))
+  (lib (name promicro)(type Legacy)(uri /Users/sako/Workspace/Paddino02/kicad/footprints/promicro.pretty/promicro.lib)(options "")(descr ""))
+  (lib (name tutorial-rescue)(type Legacy)(uri ${KIPRJMOD}/tutorial-rescue.lib)(options "")(descr ""))
+  (lib (name switch)(type Legacy)(uri "/Users/sako/Workspace/Paddino02/kicad/footprints/MX_Alps_Hybrid/Schematic Library/MX_Alps_Hybrid.lib")(options "")(descr ""))
+)
