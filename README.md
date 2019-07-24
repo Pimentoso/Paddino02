@@ -1,6 +1,8 @@
 # Paddino02
 
-10-keys DIY mechanical macropad/gamepad. Features staggered columns, 2 thumb keys, symmetric PCB (you can build right-handed and left-handed versions with the same PCB). Intended to use with QMK firmware.
+10-keys DIY mechanical macropad/gamepad. Features staggered columns, 2 thumb keys, symmetric PCB (you can build right-handed and left-handed versions with the same PCB). Intended to use with [QMK firmware](https://qmk.fm).
+
+![Rendering](https://raw.githubusercontent.com/Pimentoso/Paddino02/master/images/render.jpg)
 
 ## What's this all about
 
@@ -8,7 +10,7 @@ The project started as an exercise while learning to draw PCBs using Kicad, and 
 
 ### What you need
 
-- a Paddino02 PCB. I suggest ordering it at http://jlcpcb.com, you can get 5 PCB for just $2. Instructions for ordering below.
+- a Paddino02 PCB. I suggest ordering it at [JLCPCB](http://jlcpcb.com), you can get 5 PCBs for just $2. Instructions for ordering below.
 - an Arduino Pro Micro. Aliexpress link https://www.aliexpress.com/item/32849563958.html
 - x10 1N4148 diodes. Aliexpress link https://www.aliexpress.com/item/32804799676.html
 - x10 mechanical keyboard switches of your choice. Aliexpress link https://www.aliexpress.com/item/32679823499.html
@@ -20,6 +22,19 @@ The project started as an exercise while learning to draw PCBs using Kicad, and 
 
 ### Building the pad
 
+DESCRIPTIONS COMING SOON
+
+![Rendering](https://raw.githubusercontent.com/Pimentoso/Paddino02/master/images/img0.jpg)
+
+![Rendering](https://raw.githubusercontent.com/Pimentoso/Paddino02/master/images/img1.jpg)
+
+![Rendering](https://raw.githubusercontent.com/Pimentoso/Paddino02/master/images/img2.jpg)
+
+![Rendering](https://raw.githubusercontent.com/Pimentoso/Paddino02/master/images/img3.jpg)
+
+![Rendering](https://raw.githubusercontent.com/Pimentoso/Paddino02/master/images/img4.jpg)
+
+![Rendering](https://raw.githubusercontent.com/Pimentoso/Paddino02/master/images/img5.jpg)
 
 ### Flashing the firmware
 
@@ -32,34 +47,8 @@ The firmware folder contains the keymap JSON files. You can load them into https
 
 ## Ordering the PCB
 
-
-
-## Built With
-
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
-
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
-
-## Authors
-
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+Head over to https://jlcpcb.com/quote and upload the gerber.zip file, located inside the kicad/gerber folder. The default options are good (you can change the color for swag). Just make sure PCB Thickness is set to 1.6. Since the PCB is smaller than 100mm, the cost will be $2 for 5 of them, and shipping will be free if it's your first order.
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
-## Acknowledgments
-
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
+This project is licensed under the GPLv3 License - see the [LICENSE.md](LICENSE.md) file for details
