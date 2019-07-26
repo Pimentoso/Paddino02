@@ -38,6 +38,8 @@
 
 ![Pic](https://raw.githubusercontent.com/Pimentoso/Paddino02/master/images/img5.jpg)
 
+![Pic](https://raw.githubusercontent.com/Pimentoso/Paddino02/master/images/img6.jpg)
+
 ### Flashing the firmware
 
 The firmware folder contains the keymap .json files and firmware .hex files for both the right and left handed versions. 
