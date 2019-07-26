@@ -2,11 +2,7 @@
 
 10-keys DIY mechanical macropad/gamepad. Features staggered columns, 2 thumb keys, symmetric PCB (you can build right-handed and left-handed versions with the same PCB). Intended to use with [QMK firmware](https://qmk.fm).
 
-![Rendering](https://raw.githubusercontent.com/Pimentoso/Paddino02/master/images/render.jpg)
-
-## What's this all about
-
-The project started as an exercise while learning to draw PCBs using Kicad, and evolved into a finished product.
+![Rendering](https://raw.githubusercontent.com/Pimentoso/Paddino02/master/images/render.png)
 
 ### What you need
 
@@ -22,7 +18,13 @@ The project started as an exercise while learning to draw PCBs using Kicad, and 
 
 ### Building the pad
 
-DESCRIPTIONS COMING SOON
+- solder the 10 diodes. The black heads of the diodes must be oriented towards the square-marked holes in the PCB.
+- solder the header pins.
+- solder the Pro Micro. Either you are building the right or left version, the USB port side must face the PCB.
+- print a plate and snap the switches into the holes.
+- insert the switches pins into the PCB and solder them in.
+- flash the firmware (see next section).
+- print a case and screw the two parts together.
 
 ![Pic](https://raw.githubusercontent.com/Pimentoso/Paddino02/master/images/img0.jpg)
 
@@ -40,13 +42,21 @@ DESCRIPTIONS COMING SOON
 
 The firmware folder contains the keymap .json files and firmware .hex files for both the right and left handed versions. 
 
-If you want to edit the keys, you have to load the .json file into https://kbfirmware.com/, configure the keys as you like, and compile a .hex file directly from the site. You can then flash the .hex file on the pad using avrdude.
+#### Editing the keymap
 
-[avrdude guide or link coming soon]
+The provided keymap files are very basic, and the second layer is empty. So some customization is recommended. 
 
-The hole on the bottom of the case is used to enter programming mode. You can stick a bent clip/screwdriver into it to short the RESET and GROUND pins of the Pro Micro.
+To edit the keys, you have to load the .json file into https://kbfirmware.com/, configure the keys as you like, and compile a .hex file directly from the site. You can then flash the .hex file on the pad using avrdude.
 
-Keyboard Layout Editor links:
+#### Flashing
+
+The easiest way is to install [QMK Toolbox](https://github.com/qmk/qmk_toolbox/releases)
+
+Connect your pad to USB, enter programming mode, select the .hex file into QMK Toolbox, and flash.
+
+To enter programming mode, use the hole on the bottom of the case. You can stick a bent clip/screwdriver into it to short the RESET and GROUND pins of the Pro Micro. (There are actually 2 holes, because in the right-handed version the Pro Micro is flipped and the pins are on the other side)
+
+#### Keyboard Layout Editor links
 
 - http://www.keyboard-layout-editor.com/#/gists/999c722bfd1635b06a1ac5182787ecb8 (left handed version)
 - http://www.keyboard-layout-editor.com/#/gists/7b56ab607e70723b96f63006d65ebe46 (right handed version)
