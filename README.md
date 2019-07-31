@@ -28,25 +28,25 @@
 - print a case and screw the two parts together.
 
 ![Pic](https://raw.githubusercontent.com/Pimentoso/Paddino02/master/images/img0.jpg)
-*Some PCBs. The white ones are from the first revision, they're just in the pic for show.
+*Some PCBs. The white ones are from the first revision, they're just in the pic for show.*
 
 ![Pic](https://raw.githubusercontent.com/Pimentoso/Paddino02/master/images/img1.jpg)
-*Pro Micro soldered with header pins. The pins are too long and need to be snipped.
+*Pro Micro soldered with header pins. The pins are too long and need to be snipped.*
 
 ![Pic](https://raw.githubusercontent.com/Pimentoso/Paddino02/master/images/img2.jpg)
-*Plate with blue switches snapped in place.
+*Plate with blue switches snapped in place.*
 
 ![Pic](https://raw.githubusercontent.com/Pimentoso/Paddino02/master/images/img3.jpg)
-*PCB joined with plate.
+*PCB joined with plate.*
 
 ![Pic](https://raw.githubusercontent.com/Pimentoso/Paddino02/master/images/img4.jpg)
-*Right and left versions.
+*Right and left versions.*
 
 ![Pic](https://raw.githubusercontent.com/Pimentoso/Paddino02/master/images/img5.jpg)
-*Finished pads (first revision)
+*Finished pads (first revision)*
 
 ![Pic](https://raw.githubusercontent.com/Pimentoso/Paddino02/master/images/img6.jpg)
-*Finished pad (second revision). Compared to the first revision, the screw holes are hidden between the switches.
+*Finished pad (second revision). Compared to the first revision, the screw holes are hidden between the switches.*
 
 ### Flashing the firmware
 
