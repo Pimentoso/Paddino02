@@ -21,24 +21,32 @@
 - solder the 10 diodes. The black heads of the diodes must be oriented towards the square-marked holes in the PCB.
 - solder the header pins.
 - solder the Pro Micro. Either you are building the right or left version, the USB port side must face the PCB.
+- cut away the excess of the header pins using pliers/nippers.
 - print a plate and snap the switches into the holes.
 - insert the switches pins into the PCB and solder them in.
 - flash the firmware (see next section).
 - print a case and screw the two parts together.
 
 ![Pic](https://raw.githubusercontent.com/Pimentoso/Paddino02/master/images/img0.jpg)
+*Some PCBs. The white ones are from the first revision, they're just in the pic for show.
 
 ![Pic](https://raw.githubusercontent.com/Pimentoso/Paddino02/master/images/img1.jpg)
+*Pro Micro soldered with header pins. The pins are too long and need to be snipped.
 
 ![Pic](https://raw.githubusercontent.com/Pimentoso/Paddino02/master/images/img2.jpg)
+*Plate with blue switches snapped in place.
 
 ![Pic](https://raw.githubusercontent.com/Pimentoso/Paddino02/master/images/img3.jpg)
+*PCB joined with plate.
 
 ![Pic](https://raw.githubusercontent.com/Pimentoso/Paddino02/master/images/img4.jpg)
+*Right and left versions.
 
 ![Pic](https://raw.githubusercontent.com/Pimentoso/Paddino02/master/images/img5.jpg)
+*Finished pads (first revision)
 
 ![Pic](https://raw.githubusercontent.com/Pimentoso/Paddino02/master/images/img6.jpg)
+*Finished pad (second revision). Compared to the first revision, the screw holes are hidden between the switches.
 
 ### Flashing the firmware
 
