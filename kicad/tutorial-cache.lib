@@ -99,11 +99,11 @@ X D7 9 -700 -50 200 R 50 50 1 1 B
 ENDDRAW
 ENDDEF
 #
-# switch_MX-NoLED
+# tutorial-rescue_MX-NoLED-switch
 #
-DEF switch_MX-NoLED MX 0 40 Y Y 1 F N
+DEF tutorial-rescue_MX-NoLED-switch MX 0 40 Y Y 1 F N
 F0 "MX" -25 150 60 H V C CNN
-F1 "switch_MX-NoLED" -25 50 20 H V C CNN
+F1 "tutorial-rescue_MX-NoLED-switch" -25 50 20 H V C CNN
 F2 "" -625 -25 60 H I C CNN
 F3 "" -625 -25 60 H I C CNN
 DRAW

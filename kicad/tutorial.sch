@@ -143,7 +143,7 @@ NoConn ~ 7550 6900
 NoConn ~ 6150 5900
 NoConn ~ 6150 5800
 $Comp
-L switch:MX-NoLED MX0
+L tutorial-rescue:MX-NoLED-switch MX0
 U 1 1 5D1172EF
 P 9200 5400
 F 0 "MX0" H 9233 5623 60  0000 C CNN
@@ -154,7 +154,7 @@ F 3 "" H 8575 5375 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L switch:MX-NoLED MX1
+L tutorial-rescue:MX-NoLED-switch MX1
 U 1 1 5D118615
 P 9700 5400
 F 0 "MX1" H 9733 5623 60  0000 C CNN
@@ -165,7 +165,7 @@ F 3 "" H 9075 5375 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L switch:MX-NoLED MX2
+L tutorial-rescue:MX-NoLED-switch MX2
 U 1 1 5D1188EE
 P 10200 5400
 F 0 "MX2" H 10233 5623 60  0000 C CNN
@@ -176,7 +176,7 @@ F 3 "" H 9575 5375 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L switch:MX-NoLED MX3
+L tutorial-rescue:MX-NoLED-switch MX3
 U 1 1 5D11A3DC
 P 10700 5400
 F 0 "MX3" H 10733 5623 60  0000 C CNN
@@ -187,7 +187,7 @@ F 3 "" H 10075 5375 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L switch:MX-NoLED MX4
+L tutorial-rescue:MX-NoLED-switch MX4
 U 1 1 5D11A6DD
 P 9200 6400
 F 0 "MX4" H 9233 6623 60  0000 C CNN
@@ -198,7 +198,7 @@ F 3 "" H 8575 6375 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L switch:MX-NoLED MX5
+L tutorial-rescue:MX-NoLED-switch MX5
 U 1 1 5D11ACF4
 P 9700 6400
 F 0 "MX5" H 9733 6623 60  0000 C CNN
@@ -209,7 +209,7 @@ F 3 "" H 9075 6375 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L switch:MX-NoLED MX6
+L tutorial-rescue:MX-NoLED-switch MX6
 U 1 1 5D11B01D
 P 10200 6400
 F 0 "MX6" H 10233 6623 60  0000 C CNN
@@ -220,7 +220,7 @@ F 3 "" H 9575 6375 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L switch:MX-NoLED MX7
+L tutorial-rescue:MX-NoLED-switch MX7
 U 1 1 5D11B373
 P 10700 6400
 F 0 "MX7" H 10733 6623 60  0000 C CNN
@@ -231,7 +231,7 @@ F 3 "" H 10075 6375 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L switch:MX-NoLED MX8
+L tutorial-rescue:MX-NoLED-switch MX8
 U 1 1 5D11B6C4
 P 10200 7400
 F 0 "MX8" H 10233 7623 60  0000 C CNN
@@ -242,7 +242,7 @@ F 3 "" H 9575 7375 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L switch:MX-NoLED MX9
+L tutorial-rescue:MX-NoLED-switch MX9
 U 1 1 5D11BEED
 P 10700 7400
 F 0 "MX9" H 10733 7623 60  0000 C CNN
